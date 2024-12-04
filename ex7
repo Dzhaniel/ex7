@@ -1,0 +1,9 @@
+while True:
+    answer=input("Мәтін енгіз:")
+    if answer=="Yes":
+        print("Сіз yes деп жауап бердіңіз дұрыс")
+        break
+    elif answer=="No":
+        print("Сіз no деп жауап бердіңіз дұрыс")
+else:
+    print("Енгізген сөзіңіз сәйкес келмейді")
